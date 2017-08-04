@@ -12,3 +12,25 @@ package exercicio5;
 		return super.super.toString()+":"+super.toString()+"->"+ev;
 	}
 }*/
+
+public class EntradaNaAgenda extends DataHora {
+
+	private String evento;
+
+	public String getEvento() {
+		return evento;
+	}
+
+	public void setEvento(String evento) {
+		this.evento = evento;
+	}
+
+	public EntradaNaAgenda(byte d,byte m,short a,byte hor,byte min,byte seg,String ev){
+		super(d, m, a, hor, min, seg);
+		this.evento = ev;
+	}
+
+	public String toString(){
+		return super.toString()+"\nEvento: -> "+getEvento();
+	}
+}
