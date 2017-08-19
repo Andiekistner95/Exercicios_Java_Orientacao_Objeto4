@@ -24,6 +24,24 @@ public abstract class Produto {
 
 	private String identificacao;
 	private double custoDeFabricacao;
+	
+	
+
+	public String getIdentificacao() {
+		return identificacao;
+	}
+
+	public void setIdentificacao(String identificacao) {
+		this.identificacao = identificacao;
+	}
+
+	public double getCustoDeFabricacao() {
+		return custoDeFabricacao;
+	}
+
+	public void setCustoDeFabricacao(double custoDeFabricacao) {
+		this.custoDeFabricacao = custoDeFabricacao;
+	}
 
 	Produto(String i, double c) {
 		identificacao = i;

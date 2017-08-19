@@ -3,9 +3,11 @@ package exercicio5;
 public class Teste {
 	public static void main(String[] args) {
 
-		Data data = new Data((byte) 15, (byte) 10, (short) 2012);
+		//Data data = new Data((byte) 15, (byte) 10, (short) 2012);
 		try {
-			Hora hora = new Hora((byte) 23 ,(byte) 45,(byte) 35);
+			//Hora hora = new Hora((byte) 23 ,(byte) 45,(byte) 35);
+			
+			//só comentei para desaparecer o erro
 			
 		} catch (IllegalArgumentException erro) {
 			System.out.println(erro.getMessage());
